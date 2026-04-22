@@ -1,0 +1,1 @@
+//Aquí vamos a escribir las rutas de authentication, como login, registro, etc.
