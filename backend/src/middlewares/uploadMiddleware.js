@@ -3,7 +3,7 @@ import multer from 'multer';
 import AppError from '../utils/appError.js';
 import { HTTP_STATUS } from '../utils/httpCodes.js'
 
-const storage = multer.dickStorage({
+const storage = multer.diskStorage({
     destination: (_req, _file, cb) => {
         cb(null, ' uploads/');
     },

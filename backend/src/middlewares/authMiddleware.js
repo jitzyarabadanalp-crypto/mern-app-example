@@ -1,7 +1,7 @@
 import jwt from 'jsonwebtoken'
 
 import AppError from '../utils/appError.js';
-import { HTTP_STATUS } from '../utils/httpCode.js'
+import { HTTP_STATUS } from '../utils/httpCodes.js'
 
 const authenticate = (req, _res,next) => {
     const authHeader = req.headers.authorization || '';
